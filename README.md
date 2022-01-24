@@ -1,6 +1,7 @@
 # Deep-Convolutional-GAN
 
-In this project, I have built a Deep Convolutional Generative Adversarial Network (DCGAN) that generates gray scale images of Fashion MNIST. This model is trained on a Fashion MNIST dataset.
+In this project, I had built a Deep Convolutional Generative Adversarial Network (DCGAN) using Tensorflow framework that generates gray scale images of Fashion MNIST. I built the model using Tensorflow Sequential API that uses two sub networks which is Generator (takes in random noise and tries to transform it to the shape of the Fashion MNIST images) and Discriminator (classify between fake and real images). While training, the two sub-networks complement each other to enhance their performance. The model was trained on a Fashion MNIST dataset for 100 epochs.
+
 In order to build this Model, I took the following steps:
   -	Imported the packages and defined a utility function that will be used in the project.
   -	Download and Prepare the Dataset
